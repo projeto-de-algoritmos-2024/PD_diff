@@ -1,30 +1,15 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# diff
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Conteúdo da Disciplina**: Programação Dinâmica<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| Matrícula  | Aluno                        |
+| ---------- | ---------------------------- |
+| 21/1039250 | Arthur Grandão de Mello      |
+| 21/1029540 | Pedro Sena Barbosa Holtz Yen |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Nosso projeto busca mostrar as alterações entre dois códigos usando o algoritmo de alinhamento de sequência. 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
