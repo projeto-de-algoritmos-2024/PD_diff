@@ -49,13 +49,9 @@ const DiffButton = ({ code1, code2, diffResult, setDiffResult }) => {
     };
 
     return (
-        <div>
-            <Box mt={4} textAlign="center">
-                <Button colorScheme="teal" size="lg" onClick={handleDiff}>
-                    Comparar Código
-                </Button>
-            </Box>
-        </div>
+        <Button colorScheme="teal" size="lg" onClick={handleDiff} >
+            Comparar Código
+        </Button>
     );
 };
 

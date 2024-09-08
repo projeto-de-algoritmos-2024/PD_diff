@@ -14,34 +14,29 @@ const ACTIVE_COLOR = "blue.400";
 
 const LanguageSelector = ({ language, onSelect }) => {
   return (
-    <Box ml={2} mb={4}>
-      <Text mb={2} fontSize="lg">
-        Linguagem:
-      </Text>
-      <Menu isLazy>
-        <MenuButton as={Button}>{language}</MenuButton>
-        <MenuList bg="#110c1b">
-          {languages.map(([lang, version]) => (
-            <MenuItem
-              key={lang}
-              color={lang === language ? ACTIVE_COLOR : ""}
-              bg={lang === language ? "gray.900" : "transparent"}
-              _hover={{
-                color: ACTIVE_COLOR,
-                bg: "gray.900",
-              }}
-              onClick={() => onSelect(lang)}
-            >
-              {lang}
-              &nbsp;
-              <Text as="span" color="gray.600" fontSize="sm">
-                ({version})
-              </Text>
-            </MenuItem>
-          ))}
-        </MenuList>
-      </Menu>
-    </Box>
+    <Menu isLazy>
+      <MenuButton as={Button} width={40}>{language}</MenuButton>
+      <MenuList bg="#110c1b">
+        {languages.map(([lang, version]) => (
+          <MenuItem
+            key={lang}
+            color={lang === language ? ACTIVE_COLOR : ""}
+            bg={lang === language ? "gray.900" : "transparent"}
+            _hover={{
+              color: ACTIVE_COLOR,
+              bg: "gray.900",
+            }}
+            onClick={() => onSelect(lang)}
+          >
+            {lang}
+            &nbsp;
+            <Text as="span" color="gray.600" fontSize="sm">
+              ({version})
+            </Text>
+          </MenuItem>
+        ))}
+      </MenuList>
+    </Menu>
   );
 };
 export default LanguageSelector;

@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { Text, Box, Flex } from "@chakra-ui/react";
+import { Text, Box, Flex, Button, Stack } from "@chakra-ui/react";
 import { Editor } from "@monaco-editor/react";
 import LanguageSelector from "./LanguageSelector";
 import { CODE_SNIPPETS } from "../constants";
@@ -27,10 +27,13 @@ const CodeEditor = () => {
     <div>
       <div>
         <Box mb={2}>
-          <LanguageSelector language={language} onSelect={onSelect} />
-        </Box>
-        <Box mt={2} textAlign="center">
-          <DiffButton code1={oldCode} code2={newCode} diffResult={diffResult} setDiffResult={setDiffResult} />
+          <Stack direction='row' spacing={4} align='center'>
+            <LanguageSelector language={language} onSelect={onSelect} />
+            <DiffButton code1={oldCode} code2={newCode} diffResult={diffResult} setDiffResult={setDiffResult} />
+            <Button colorScheme="purple" size="lg" onClick={() => setDiffResult([])}>
+              Limpar Resultado
+            </Button>
+          </Stack>
         </Box>
       </div>
       <div>
@@ -73,9 +76,9 @@ const CodeEditor = () => {
           </Box>
         </Flex>
       </div>
-      <div>
-        <Box mt={4} p={4} borderWidth="1px" borderRadius="lg" bg="gray.800" overflowY="scroll" height="2000px">
-          {console.log(diffResult)}
+      <div align="center">
+        Resultado:
+        <Box mt={4} p={4} align="left" borderWidth="1px" borderRadius="lg" bg="gray.800" width="1200px">
           {diffResult.length > 0 ? (
             diffResult.map((change, index) => (
               <Text
