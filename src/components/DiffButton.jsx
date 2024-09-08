@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { Box, Button, Textarea } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 
 function diffLines(oldCode, newCode) {
     const oldLines = oldCode.split('\n');
