@@ -12,8 +12,13 @@
 Nosso projeto busca mostrar as alterações entre dois códigos, similar à interface de diff de commits do GitHub.
 
 ## Screenshots
+* ### Tela inicial
 <img src="./assets/print1.png" ></img>
+
+* ### Inserção dos códigos
 <img src="./assets/print2.png" ></img>
+
+* ### Resultado da comparação
 <img src="./assets/print3.png" ></img>
 
 ## Uso 
