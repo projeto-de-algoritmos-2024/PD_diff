@@ -16,10 +16,6 @@ Nosso projeto busca mostrar as alterações entre dois códigos, similar à inte
 <img src="./assets/print2.png" ></img>
 <img src="./assets/print3.png" ></img>
 
-## Instalação 
-**Linguagem**: javascript<br>
-**Framework**: Vite, React<br>
-
 ## Uso 
 1. Acesse o [gh-pages do projeto](https://projeto-de-algoritmos-2024.github.io/PD_diff/);
 2. Clique no botão com a linguagem de programação para selecionar a linguagem desejada;
