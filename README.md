@@ -9,22 +9,24 @@
 | 21/1029540 | Pedro Sena Barbosa Holtz Yen |
 
 ## Sobre 
-Nosso projeto busca mostrar as alterações entre dois códigos usando o algoritmo de alinhamento de sequência. 
+Nosso projeto busca mostrar as alterações entre dois códigos, similar à interface de diff de commits do GitHub.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+<img src="./assets/print1.png" ></img>
+<img src="./assets/print2.png" ></img>
+<img src="./assets/print3.png" ></img>
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: javascript<br>
+**Framework**: Vite, React<br>
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+1. Acesse o [gh-pages do projeto](https://projeto-de-algoritmos-2024.github.io/PD_diff/);
+2. Clique no botão com a linguagem de programação para selecionar a linguagem desejada;
+3. Digite o código 'original' no editor da esquerda e o código 'novo' no editor da direita;
+4. Clique em "Comparar Códigos" para obter o resultado;
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
+## [Apresentação](https://youtu.be/YzISMdr7R4M)
 
 
 
